@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #22232E;
+
+  display: flex;
+}
+
+
+.lampe {
+  margin:auto auto;
+  width: 100px;
+  height: 100px;
+  background: rgba(128, 128, 128, 0.217);
+  /* border: 5px solid #22232E; */
+  border-radius: 50%;
+}
+
+
+.lampe:hover {
+  background:radial-gradient(closest-side, #e3e319, rgb(192, 184, 34), #ebf8e1);
+  box-shadow:
+  0 0 60px 30px #fff,
+  0 0 100px 60px rgb(247, 251, 0),
+  0 0 140px 90px rgb(238, 255, 0);
+}
+
